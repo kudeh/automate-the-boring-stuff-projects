@@ -1,2 +1,7 @@
-# python-datastructures-algorithms
-Implementation Of Data structures and Algorithms in python
+# python-pracice
+Learning different engineering and scientific things in python
+
+  * Data Structures
+  * Algorithms
+  * Computer Archietecture
+  * Web Development
