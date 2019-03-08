@@ -3,5 +3,5 @@ Learning different engineering and scientific things in python
 
   * Data Structures
   * Algorithms
-  * Computer Archietecture
+  * Computer Architecture
   * Web Development
