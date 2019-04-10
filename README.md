@@ -1,7 +1,6 @@
-# python-pracice
-Learning different engineering and scientific things in python
+# projects-in-python
+Some projects I have implemented in python from different sources
 
-  * Data Structures
-  * Algorithms
-  * Computer Architecture
-  * Web Development
+Sources include:
+* Automate the Boring Stuff w/ Python [(link)](https://automatetheboringstuff.com)
+* Real Python Website [(link)](https://realpython.com/)
