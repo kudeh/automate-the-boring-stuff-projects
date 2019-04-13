@@ -1,16 +1,16 @@
 def rotate90(grid):
     """ Rotates a grid 90 degrees
         Args:
-            grid(list): a 2d list representing a grid
+            grid (list): a 2d list representing a grid
         Returns:
-            grid(list): rotated copy of a 2d grid
+            grid (list): rotated copy of a 2d grid
     """
     return list(zip(*grid[::-1]))
 
 def print2DGrid(grid):
     """ Prints a 2D grid
         Args:
-            grid(list): 2D grid
+            grid (list): 2D grid
         Returns:
             None
     """

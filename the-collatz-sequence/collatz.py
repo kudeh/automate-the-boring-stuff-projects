@@ -1,7 +1,7 @@
 def collatz(number):
     """ If number is even (number // 2) else (3 * number + 1)
         Args:
-            number(int): number to collatz
+            number (int): number to collatz
 
         Returns:
             int: collatz number
