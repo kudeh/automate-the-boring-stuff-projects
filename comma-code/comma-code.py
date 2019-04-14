@@ -1,3 +1,7 @@
+# comma-code.py
+# Author: Kene Udeh
+# Source: Automate the Boring stuff with python Ch. 4 Project
+
 def comma_code(items):
     """ Combines list into a string of the form item1, item2, and item 3
         Args:

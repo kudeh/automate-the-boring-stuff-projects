@@ -1,3 +1,7 @@
+# collatz.py
+# Author: Kene Udeh
+# Source: Automate the Boring stuff with python Ch. 4 Project
+
 def collatz(number):
     """ If number is even (number // 2) else (3 * number + 1)
         Args:

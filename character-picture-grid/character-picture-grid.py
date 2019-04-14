@@ -1,3 +1,7 @@
+# character-picture-grid.py
+# Author: Kene Udeh
+# Source: Automate the Boring stuff with python Ch. 4 Project
+
 def rotate90(grid):
     """ Rotates a grid 90 degrees
         Args:
