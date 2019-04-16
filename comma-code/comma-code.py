@@ -4,11 +4,11 @@
 
 def comma_code(items):
     """ Combines list into a string of the form item1, item2, and item 3
-        Args:
-            items (list): List of strings
+    Args:
+        items (list): List of strings
 
-        Returns:
-            string: list items combined into a string
+    Returns:
+        string: list items combined into a string
     """
     item_len = len(items)
     

@@ -5,11 +5,11 @@
 def displayInventory(inventory):
     """ Displays how much of what a player has in inventory
         
-        Args:
-            inventory (dict): Inventory containing items and their counts
+    Args:
+        inventory (dict): Inventory containing items and their counts
 
-        Return: 
-            None
+    Returns: 
+        None
     """
     print("Inventory:")
     item_total = 0
