@@ -3,15 +3,34 @@
 # Source: Automate the Boring stuff with python Ch. 8 Project
 
 import os
+import re
 
-def regexSearch(filename):
-    """Searches for any line that matches a user-supplied regular expression
+def regexSearch(regexStr, folderPath):
+    """Searches all txt files in a folder for any line that matches a user-supplied regular expression
     Args:
-        filename (str): name of file to parse
+        folderPath (str): path of folder to parse
     Returns:
         None
     """
-    pass
+    if not os.path.isdir(folderPath):
+        return 'Input a directory path'
+
+    userRegex = re.compile(regex)
+
+    for filename in os.listdir(folderPath):
+
+        if filename.endswith('.txt'):
+
+            with open(filename) as file:
+
+                for line in file:
+                    mo = userRegex.search(line)
+                    
+                    if mo:
+                        print(line, end='')
+            
 
 if __name__ == "__main__":
-    pass
+
+    regex = input('enter regex: ')
+    regexSearch(regex, '.')

@@ -31,13 +31,11 @@ def madLibs(input_file, output_file):
             else:
                 result.append(w)
    
+        result = ' '.join(result)
 
-        out_file.write(' '.join(result))
+        out_file.write(result)
+        print(result)
 
-                
-
-
-            
 
 if __name__ == "__main__":
     madLibs('input.txt', 'output.txt')
