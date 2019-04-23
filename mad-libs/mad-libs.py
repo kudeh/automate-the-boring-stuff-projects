@@ -12,30 +12,20 @@ def madLibs(input_file, output_file):
     Returns:
         None
     """
-    regex = re.compile(r'\w*(NOUN|ADJECTIVE|ADVERB|VERB)\w*')
+    regex = re.compile(r'(NOUN|ADJECTIVE|ADVERB|VERB)')
 
     with open(input_file, 'r') as in_file, open(output_file, 'w') as out_file:
 
-        words = in_file.read().split(' ')
-        result = []
+        content = in_file.read()
 
-        for w in words:
+        matches = regex.findall(content)
 
-            mo = regex.search(w)
+        for found in matches:
+            sub = input('Enter a ' + found + ': ')
+            content = content.replace(found, sub, 1)
 
-            if mo:
-                match = mo.group(1)
-                print(f'Enter a {match.lower()}: ', end='')
-                i = input()
-                result.append(regex.sub(i, w))
-            else:
-                result.append(w)
-   
-        result = ' '.join(result)
-
-        out_file.write(result)
-        print(result)
-
+        out_file.write(content)
+        print(content)
 
 if __name__ == "__main__":
     madLibs('input.txt', 'output.txt')
