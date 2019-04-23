@@ -14,7 +14,6 @@ def findUnneeded(folderPath, rejectSize):
         None
     """
     root = os.path.abspath(folderPath)
-    print(root)
 
     for doc in os.listdir(root):
 
