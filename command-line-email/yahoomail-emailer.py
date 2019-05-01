@@ -12,7 +12,9 @@ import time
 def emailer(sendFrom, password, sendTo, message):
     """ Sends message to email address
     Args:
-        sendTo (str): string representing email address
+        sendFrom(str): senders email address
+        password(str): senders password
+        sendTo (str): receipient email address
         message (str): message to send
     Returns:
         None
@@ -54,9 +56,24 @@ def emailer(sendFrom, password, sendTo, message):
         mailLinkElem = browser.find_element_by_id('uh-mail-link')
         mailLinkElem.send_keys(Keys.ENTER)
 
-        print(sendTo, '\n', message)
+        time.sleep(10)
 
-        
+        composeBtnElem = browser.find_element_by_link_text('Compose')
+        composeBtnElem.send_keys(Keys.ENTER)
+
+        time.sleep(10)
+
+        messageToElem = browser.find_element_by_id('message-to-field')
+        messageToElem.send_keys(sendTo)
+
+        messageSubjectElem = browser.find_element_by_css_selector('input[placeholder = "Subject"]')
+        messageSubjectElem.send_keys('FYI')
+
+        messageBodyElem = browser.find_element_by_css_selector('div[data-test-id = "rte"]')
+        messageBodyElem.send_keys(message)
+
+        composeSendBtnElem = browser.find_element_by_css_selector('button[data-test-id = "compose-send-button"]')
+        composeSendBtnElem.send_keys(Keys.ENTER)
 
 
 if __name__ == '__main__':
