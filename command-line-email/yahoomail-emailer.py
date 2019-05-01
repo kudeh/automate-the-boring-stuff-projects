@@ -5,6 +5,7 @@
 
 import sys
 import re
+import time
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -12,8 +13,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
-
-import time
 
 def emailer(sendFrom, password, sendTo, message):
     """ Sends message to email address
@@ -30,9 +29,7 @@ def emailer(sendFrom, password, sendTo, message):
         @                      # @ symbol
         [a-zA-Z0-9.-]+         # domain name
         (\.[a-zA-Z]{2,4})      # dot-something
-        )''', re.VERBOSE)
-
-    
+        )''', re.VERBOSE)  
 
     if not emailRegex.match(sendTo):
         print("**Invalid Email Address Provided**")
@@ -105,6 +102,8 @@ def wait_for_page_load(browser, by, selector, delay):
     return elem
 
 if __name__ == '__main__':
+
+    #$ python yahoomail-emailer.py sendingto@gmail.com message I am sending
 
     if len(sys.argv) > 2:
         sendTo = sys.argv[1]
