@@ -5,7 +5,6 @@
 
 import requests
 import bs4
-import re
 
 def verify(url):
     """verifies all links within a page, prints broken links
@@ -14,7 +13,7 @@ def verify(url):
     Returns:
         None
     """
-    re
+
     res1 = requests.get(url)
 
     try:
