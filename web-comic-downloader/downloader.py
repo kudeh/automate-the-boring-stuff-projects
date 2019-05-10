@@ -5,8 +5,6 @@
 
 import os
 import shelve
-import subprocess
-import datetime
 
 import requests
 import bs4
