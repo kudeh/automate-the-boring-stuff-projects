@@ -1,7 +1,7 @@
 #! python3
 # stopwatch.py
 # Author: Kene Udeh
-# Source: Automate the Boring stuff with python Ch. 14 Project
+# Source: Automate the Boring stuff with python Ch. 15 Project
 
 import time
 
@@ -10,6 +10,12 @@ import pyperclip
 
 
 def stopwatch():
+    """ records time spent per task, prints and stores in clipboard
+    Args:
+        None
+    Returns:
+        None
+    """
     # Display the program's instructions.
     print('Press ENTER to begin. Afterwards, press ENTER to "click" the stopwatch. Press Ctrl-C to quit.')
     input()                    # press Enter to begin
