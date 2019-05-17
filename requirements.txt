@@ -1,0 +1,16 @@
+beautifulsoup4==4.7.1
+certifi==2019.3.9
+chardet==3.0.4
+et-xmlfile==1.0.1
+idna==2.8
+jdcal==1.4.1
+lxml==4.3.3
+openpyxl==2.6.2
+PyPDF2==1.26.0
+pyperclip==1.7.0
+python-docx==0.8.10
+requests==2.22.0
+selenium==3.141.0
+Send2Trash==1.5.0
+soupsieve==1.9.1
+urllib3==1.25.2
