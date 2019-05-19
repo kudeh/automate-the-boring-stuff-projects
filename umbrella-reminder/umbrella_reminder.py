@@ -54,4 +54,4 @@ def send_reminder(accountSID, authToken, myTwilioNumber, myCellPhone):
 if __name__ == "__main__":
 
     if rain_check():
-        send_reminder('A***************', 'A**************', '+1**********') '+1**********')
+        send_reminder('A***************', 'A**************', '+1********', '+1**********')
