@@ -44,5 +44,9 @@ My project solutions for automate the boring stuff with python by Al Sweigart[(l
     * [Prettified Stopwatch](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/prettified-stopwatch)
     * [Scheduled Web Comic Downloader](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/web-comic-downloader)
 * Chapter 16 – Sending Email and Text Messages
+    * [Random Chore Assignment Emailer](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/chore-assignment-emailer)
+    * [Umbrella Reminder](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/umbrella-reminder)
+    * [Auto Unsubscriber](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/auto-unsubscriber)
+    * [Controlling Your Computer Through Email](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/bittorrent-downloader)
 * Chapter 17 – Manipulating Images
 * Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation
