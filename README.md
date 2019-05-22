@@ -1,5 +1,5 @@
 # automate-the-boring-stuff-projects
-My project solutions for automate the boring stuff with python by Al Sweigart[(link)](https://automatetheboringstuff.com)
+My project solutions for [automate the boring stuff with python by Al Sweigart](https://automatetheboringstuff.com)
 
 * Chapter 3 - Functions
     * [The Collatz Sequence](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/the-collatz-sequence)
