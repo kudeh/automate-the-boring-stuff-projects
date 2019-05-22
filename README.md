@@ -53,3 +53,5 @@ My project solutions for automate the boring stuff with python by Al Sweigart[(l
     * [Identifying Photo Folders On The Hard Drive](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/photo-folder-finder)
     * [Custom Seating Cards](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/custom-seating-cards)
 * Chapter 18 – Controlling the Keyboard and Mouse with GUI Automation
+    * [Looking Busy](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/looking-busy)
+    * [Instant Messenger Bot](https://github.com/kudeh/automate-the-boring-stuff-projects/tree/master/instant-messenger-bot)

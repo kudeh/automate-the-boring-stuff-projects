@@ -43,7 +43,6 @@ def send_message(contact, message):
 
     except KeyboardInterrupt:
         print('Process was cancelled..')
-    
 
 
 if __name__ == "__main__":
