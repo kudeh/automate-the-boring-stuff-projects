@@ -1,5 +1,5 @@
 #! python3
-# imgur-downloader.py
+# Site-Image-Downloader.py
 # Author: Kene Udeh
 # Source: Automate the Boring stuff with python Ch. 11 Project
 
