@@ -34,7 +34,7 @@ def selectiveCopy(inputFolder, ext, outputFolder):
                 if os.path.dirname(filepath) != resultFolder:
                     #prevent copying files from result folder              
                     shutil.copy(filepath, resultFolder)
-                    print(f'Copied {filepath} to result folder')
+                    print(f'Copied {filepath} to {resultFolder}')
 
 
 if __name__ == '__main__':
