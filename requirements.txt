@@ -15,7 +15,7 @@ PyMsgBox==1.0.6
 pyobjc-core==5.2
 pyobjc-framework-Cocoa==5.2
 pyobjc-framework-Quartz==5.2
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyperclip==1.7.0
 PyRect==0.1.4
 PyScreeze==0.1.21
