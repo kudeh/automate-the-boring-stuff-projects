@@ -10,7 +10,7 @@ openpyxl==2.6.2
 Pillow==6.0.0
 PyAutoGUI==0.9.42
 PyGetWindow==0.0.5
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMsgBox==1.0.6
 pyobjc-core==5.2
 pyobjc-framework-Cocoa==5.2
