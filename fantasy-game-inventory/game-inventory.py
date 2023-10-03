@@ -29,13 +29,21 @@ def addToInventory(inventory, addedItems):
         Returns:
             updatedInventory (dict): Inventory containing updated items and their counts
     """
-    updatedInventory = dict(inventory)
-    # your code goes here
+     # YOUR CODE GOES HERE
+    newInventory = dict(inventory)
     for item in addedItems:
-        updatedInventory.setdefault(item, 0)
-        updatedInventory[item] += 1
+        newInventory.setdefault(item, 0)
 
-    return updatedInventory
+        if item not in inventory.keys():
+            inventory[item] = 0
+            newInventory = inventory
+            for i in newInventory.keys():
+                if i in addedItems:
+                    newInventory[i] += 1
+
+        elif item in inventory.keys():
+            newInventory[item] += 1
+    return newInventory
     
 
 
